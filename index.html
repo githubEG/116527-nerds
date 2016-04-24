@@ -1,12 +1,203 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+  	 <meta charset="utf-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link href='https://fonts.googleapis.com/css?family=Roboto:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	    <title>Нёрдс - дизайн студия</title>
+	    <meta name="keywords" content="">
+	    <meta name="description" content="">
+	    <!--<link href="http://allfont.ru/allfont.css?fonts=roboto-regular" rel="stylesheet" type="text/css">-->
+	    <link href="fonts/fontello.ttf" rel="stylesheet" type="text/css">
+	    <link href="fonts/fontello.woff" rel="stylesheet" type="text/css"> 
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
+  
   <body>
+  <div class="container-1200 gray ">
+	  	<div class="wrapper clearfix">
+		  	<div class="main-header clearfix">
+		  		<span class="logo"><img src="img/logo.png" alt="Логотип" width="140"></span>
+		  			<nav class="top-menu">
+		  				<a href="#" class="current">Студия</a>
+		  				<a href="#" class="active">Клиенты</a>
+		  				<a href="#">Магазин</a>
+		  				<a href="#">Контакты</a>
+		  			</nav>
+		  		<span class="basket class="current" "><a href="#"><i class="icon-facebook"></i> Корзина</a></span>
+		  	</div>
+	<!-- SLIDER -->	  	
+		  	<div class="slider">
+		  		<!-- Так написала сама -- <div class="slider-indicator"> 	
+				  			<a href="#" class="active">1</a>
+				  			<a href="#" >2</a>
+				  			<a href="#" >3</a>
+			  	</div>-->
+<!--Из лекции-->
+				<div class="slider-controls">
+                    <i class="active"></i>
+                    <i></i>
+                    <i></i>
+                </div>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+			  	<div class="slide">
+			  		<div class="slider-text"> <!-- у меня этого тега не было, взяла из курса - создает правый контейнер для текста с кнопкой-->
+				  			<p class="slider-title">Долго, дорого,  скрупулезно.</p>
+				  			<p class="slider-description">Математически выверенный дизайн для Вашего сайта или мобильного приложения</p>
+				  			<p class="btn"><a href="#">УЗНАТЬ БОЛЬШЕ</a></p>
+				    </div>
+				  	<!--<div class="slider-figure">
+					</div>-->
+			  </div>
+			  	
+			  	
+			  		<!--<p class="slider-img"><img src="img/slider_web.png" alt="Реклама-web" max-width="350"></p>
+			  			<p class="slider-img"></p>
+			  			<p class="slider-img"></p>-->
+
+			  	<div class="slide">
+			  		
+			  		<div class="slider-text"> <!-- у меня этого тега не было, взяла из курса - создает правый контейнер для текста с кнопкой-->
+				  		<p class="slider-title">Любите ли вы математику, как любим ее мы?</p>
+				  		<p class="slider-description">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, </p>
+				  		<p class="btn"><a href="#">УЗНАТЬ БОЛЬШЕ</a></p>
+				  	</div>
+				  	<!--<div class="slider-figure">
+					</div>-->
+			  	</div>
+
+			  	<div class="slide">
+			  		
+			  		<div class="slider-text"> <!-- у меня этого тега не было, взяла из курса - создает правый контейнер для текста с кнопкой-->
+				  			<p class="slider-title">Только наркотики, только хардкор!</p>
+				  			<p class="slider-description">Все дизайнерские решения в нашей компании принимаются только по</p>
+				  			<p class="btn"><a href="#">УЗНАТЬ БОЛЬШЕ</a></p>
+				  	</div>
+				  	<!--<div class="slider-figure">
+					</div>-->
+			  </div>
+
+		  	</div>
+		</div>
+  </div>	
+	  		<div class="wrapper row-item clearfix" id="3">
+	  			<div class="item">
+	  				<p class="item-picture">
+	  				<a href="#"><img src="img/web-icon.png" alt="Веб-сайты" widht=240></a>
+	  				</p>
+	  				<h2 class="item-title">Веб-сайты</h2>
+	  				<p class="item-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+	  				<p class="btn web"><input type="submit" value="ЗАКАЗАТЬ" ></p>
+	  			</div>
+	  			
+	  			<div class="item">
+	  				<p class="item-picture"><a href="#"><img src="img/app-icon.png" alt="Приложения" widht=240></a>
+	  				</p>
+	  				<h2 class="item-title">Приложения</h2>
+	  				<p class="item-description">Покорите топ-10 приложений в AppStrore и Google Play</p>
+	  				<p class="btn app"><input type="submit" value="ЗАКАЗАТЬ" ></p>
+	  			</div>
+	  			
+	  			<div class="item">
+	  				<p class="item-picture"><a href="#"><img src="img/presentation-icon.png" alt="Презентации" widht=240></a>
+	  				</p>
+	  				<h2 class="item-title">Презентации</h2>
+	  				<p class="item-description">Вы даже не подозреваете,  насколько вы изумительны!</p>
+	  				<p class="btn presentations"><input type="submit" value="ЗАКАЗАТЬ" ></p>
+	  			</div>
+	  			<!--<span class="line"><hr></span>-->
+	  		</div>
+			<div class="wrapper row-studio clearfix">
+			  <div class="studio-left">
+					<h3 class="studio-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h3>
+					<p class="studio-description">Исповедуем принципы минимализма и чистоты. Ставим математически</p>
+					<div class="list-work">
+						<h4>Выполняем заказы на разработку</h4>
+						<ul>
+							<li>Веб-сайтов любой сложглсти</li>
+							<li>Мобильных приложений для iOS и Android</li>
+							<li>Слайдшоу и видео для корпоративных презентаций</li>
+						</ul>
+					</div>
+			  </div>
+			  <div class="studio-right">
+				  <h3 class="studio-logo"><img src="img/logo.png" alt="Логотип" max-width="190"></h3>
+				    <div class="studio-establish">since 2004</div>
+					<div class="list-work">
+						<h4>Как мы работаем</h4>
+						<ul>
+							<li>С самоотдачей 146%</li>
+							<li>Соблюдая сроки на 100%</li>
+							<li>По предоплате 50%</li>
+						</ul>
+					</div>
+			  </div>
+			</div>  
+			
+<!-- Картинки не ссылки, пыталась в  href вставить img -->
+			<div class="wrapper row-clients clearfix">
+				<a href="#"><img src="img/glujhanko-logo.png" alt="logo-glukhanko" class="client-logo"></a>
+				<a href="#"><img src="img/HTMLacademy-logo.png" alt="logo-HTML-academy"></a>
+				<a href="#"><img src="img/borodinsky-logo.png" alt="logo-barbershop"></a>
+			</div>
+			
+
+  	
+
+  	<div class="contacts clearfix">
+  		<div class="map ">
+	  		<img src="img/map.png" alt="Карта" width="100%" height="415" class="map">
+	  		<div class="placemark"><img src="img/placemark_map.png" alt="logo" width="50">
+	  		</div>
+	  		<div class="address">
+	  			<p class="title">NЁRDS DESIGN STUDIO<br>
+					191186, Санкт-Петербург,<br>  ул. Б. Конюшенная, д. 19/8 <br>
+					тел. +7 (812) 275-75-75
+	  			</p>
+	  			
+	  			<span><a href="">Напишите нам</a></span>
+	  		</div>
+  		</div>
+  	</div>
+  		
+ 	
+  		<footer class="main-footer clearfix">
+  		  <div class="wrapper">
+  			<div class="social">   
+
+				<a href="" class="social-btn social-btn-vk"><i class="icon-vkontakte"></i></a>
+				<a href="" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
+				<a href="" class="social-btn social-btn-ins"><i class="icon-linkedin-squared"></i></a>
+  			 </div>
+  			 <div class="main-footer-text">
+  			 	<p class="title">Давайте дружить, это выгодно!</p>
+  			 	<span>Скидка 10% для друзей из социальных сетей.</span>
+  			 </div>
+  		  </div>	
+		<div class="form-write-us">
+  			
+  			<form action="#" method="post" class="write-us">
+  			<div class="form-write-us-close"><div class="crest"></div></div>
+  			<p><label for = "write-us-name">Ваше имя:</label> <label for="write-us-email">Ваш e-mail:</label> </p>
+	  			<p><input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="write-us-name">
+
+	  			<input type="email" name="emeil" placeholder="Для отправки ответа" id="write-us-email"></p>
+	  			<!--Кроссбраузерность email довольно хорошая??-->
+	  			<p><label for="write-us-text">Текст письма:</label></p><br>
+	  			<textarea rows="10" cols="45" name="text" id="write-us-text">В свободной форме</textarea>
+
+	  			<p class="btn btn-send"><input type="submit" value="Отправить"></p>
+	  			<p class="btn btn-reset"><input type="submit" value="Отмена"></p>
+			</form>
+  		</div>
+  		</footer>
+
+
+    </div>
+
+
+  		
+  
 
   </body>
 </html>
