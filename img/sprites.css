@@ -1,0 +1,76 @@
+.icon_circle, .icon_circle_hover, .icon_circle_disabled, .icon_circle_dot, ..icon-circle-dot_hover, .icon_circle_dot_disabled, .icon-check-off, .icon-check-off_hover, .icon-check-off_disabled, .icon-check-on_hover, .con-check-on_disabled, .icon-check-on{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon_circle{
+	background-position: -13px -13px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon_circle_hover{
+	background-position: -13px -56px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon_circle_disabled{
+	background-position: -13px -110px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon_circle_dot{
+	background-position: -59px -13px ;
+	width: 25px;
+	height: 25px;
+}
+
+..icon-circle-dot_hover{
+	background-position: -59px -56px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon_circle_dot_disabled{
+	background-position: -59px -110px ;
+	width: 25px;
+	height: 25px;
+}
+
+.icon-check-off{
+	background-position: -112px -13px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-check-off_hover{
+	background-position: -112px -56px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-check-off_disabled{
+	background-position: -112px -110px ;
+	width: 23px;
+	height: 23px;
+}
+
+.icon-check-on_hover{
+	background-position: -161px -56px ;
+	width: 27px;
+	height: 23px;
+}
+
+.con-check-on_disabled{
+	background-position: -161px -110px ;
+	width: 27px;
+	height: 23px;
+}
+
+.icon-check-on{
+	background-position: -161px -13px ;
+	width: 27px;
+	height: 23px;
+}
+
