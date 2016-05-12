@@ -7,159 +7,160 @@
 	    <title>Нёрдс - дизайн студия</title>
 	    <meta name="keywords" content="">
 	    <meta name="description" content="">
-	    <!--<link href="http://allfont.ru/allfont.css?fonts=roboto-regular" rel="stylesheet" type="text/css">-->
-	    <link href="fonts/fontello.ttf" rel="stylesheet" type="text/css">
-	    <link href="fonts/fontello.woff" rel="stylesheet" type="text/css"> 
+	    <link rel="stylesheet" type="text/css" href="css/normalize.css">
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   
-  <body>
-  <div class="container-1200 gray ">
-	  	<div class="wrapper clearfix">
-		  	<div class="main-header clearfix">
-		  		<span class="logo"><img src="img/logo.png" alt="Логотип" width="140"></span>
+<body>
+<div class="width1200">
+  <div class="container-1200 gray clearfix ">
+	  <div class="wrapper clearfix">
+		  	<div class="main-header">
+		  		<div class="logo"><a href="#"><img src="img/logo.png" alt="Логотип" width="140"></a></div>
 		  			<nav class="top-menu">
-		  				<a href="#" class="current">Студия</a>
-		  				<a href="#" class="active">Клиенты</a>
-		  				<a href="#">Магазин</a>
-		  				<a href="#">Контакты</a>
+		  				<ul>
+		  				<li><a class="current">Студия</a></li>
+		  				<li><a href="#" class="active">Клиенты</a></li>
+		  				<li><a href="#">Магазин</a></li>
+		  				<li><a href="#">Контакты</a></li>
+		  				</ul>
 		  			</nav>
-		  		<span class="basket class="current" "><a href="#"><i class="icon-facebook"></i> Корзина</a></span>
+		  			<div class="basket"><a href="#" class="current"> Корзина</a></div>
+		  		
 		  	</div>
-	<!-- SLIDER -->	  	
-		  	<div class="slider">
-		  		<!-- Так написала сама -- <div class="slider-indicator"> 	
-				  			<a href="#" class="active">1</a>
-				  			<a href="#" >2</a>
-				  			<a href="#" >3</a>
-			  	</div>-->
-<!--Из лекции-->
-				<div class="slider-controls">
-                    <i class="active"></i>
-                    <i></i>
-                    <i></i>
-                </div>
-
-			  	<div class="slide">
-			  		<div class="slider-text"> <!-- у меня этого тега не было, взяла из курса - создает правый контейнер для текста с кнопкой-->
-				  			<p class="slider-title">Долго, дорого,  скрупулезно.</p>
-				  			<p class="slider-description">Математически выверенный дизайн для Вашего сайта или мобильного приложения</p>
-				  			<p class="btn"><a href="#">УЗНАТЬ БОЛЬШЕ</a></p>
-				    </div>
-				  	<!--<div class="slider-figure">
-					</div>-->
+													<!-- SLIDER -->	  	
+	  <div class="slider">
+		  <input type="radio" id="btn-1" name="toggle" checked>
+		  <input type="radio" id="btn-2" name="toggle">
+		  <input type="radio" id="btn-3" name="toggle">
+		
+		  <div class="slider-controls">
+			<label for="btn-1"></label>
+			<label for="btn-2"></label>
+			<label for="btn-3"></label>
+	      </div>                
+		  <div class="slides">
+		   
+		     <div class="slide">
+			  <div class="slider-text"> <!-- у меня этого тега не было, 	взяла из курса - создает правый контейнер для текста с 		кнопкой-->
+					<p class="slider-title">Долго, дорого,  скрупулезно.</p>
+					<p class="slider-description">Математически выверенный дизайн для Вашего сайта или мобильного приложения</p>
+					<p class="btn"><a href="#">УЗНАТЬ БОЛЬШЕ</a></p>
 			  </div>
+				  			
+		     </div>
 			  	
 			  	
-			  		<!--<p class="slider-img"><img src="img/slider_web.png" alt="Реклама-web" max-width="350"></p>
-			  			<p class="slider-img"></p>
-			  			<p class="slider-img"></p>-->
+			  				<!--Пыталась вставить картинкой 
+			  				<p class="slider-img"><img src="img/slider_web.png" alt="Реклама-web" max-width="350"></p>
+			  				<p class="slider-img"></p>
+			  				<p class="slider-img"></p>  -->
 
-			  	<div class="slide">
-			  		
-			  		<div class="slider-text"> <!-- у меня этого тега не было, взяла из курса - создает правый контейнер для текста с кнопкой-->
+		     <div class="slide">
+			  <div class="slider-text"> 
 				  		<p class="slider-title">Любите ли вы математику, как любим ее мы?</p>
 				  		<p class="slider-description">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, </p>
 				  		<p class="btn"><a href="#">УЗНАТЬ БОЛЬШЕ</a></p>
-				  	</div>
-				  	<!--<div class="slider-figure">
-					</div>-->
-			  	</div>
+		      </div>
+		     </div>
 
-			  	<div class="slide">
-			  		
-			  		<div class="slider-text"> <!-- у меня этого тега не было, взяла из курса - создает правый контейнер для текста с кнопкой-->
-				  			<p class="slider-title">Только наркотики, только хардкор!</p>
-				  			<p class="slider-description">Все дизайнерские решения в нашей компании принимаются только по</p>
-				  			<p class="btn"><a href="#">УЗНАТЬ БОЛЬШЕ</a></p>
-				  	</div>
-				  	<!--<div class="slider-figure">
-					</div>-->
+		     <div class="slide">
+		  	  <div class="slider-text"> 
+				  <p class="slider-title">Только наркотики, только хардкор!</p>
+				  <p class="slider-description">Все дизайнерские решения в нашей компании принимаются только по</p>
+				  <p class="btn"><a href="#">УЗНАТЬ БОЛЬШЕ</a></p>
 			  </div>
+							  
+		     </div>
+		  </div>
 
-		  	</div>
-		</div>
-  </div>	
-	  		<div class="wrapper row-item clearfix" id="3">
-	  			<div class="item">
-	  				<p class="item-picture">
-	  				<a href="#"><img src="img/web-icon.png" alt="Веб-сайты" widht=240></a>
-	  				</p>
-	  				<h2 class="item-title">Веб-сайты</h2>
-	  				<p class="item-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-	  				<p class="btn web"><input type="submit" value="ЗАКАЗАТЬ" ></p>
-	  			</div>
-	  			
-	  			<div class="item">
-	  				<p class="item-picture"><a href="#"><img src="img/app-icon.png" alt="Приложения" widht=240></a>
-	  				</p>
-	  				<h2 class="item-title">Приложения</h2>
-	  				<p class="item-description">Покорите топ-10 приложений в AppStrore и Google Play</p>
-	  				<p class="btn app"><input type="submit" value="ЗАКАЗАТЬ" ></p>
-	  			</div>
-	  			
-	  			<div class="item">
-	  				<p class="item-picture"><a href="#"><img src="img/presentation-icon.png" alt="Презентации" widht=240></a>
-	  				</p>
-	  				<h2 class="item-title">Презентации</h2>
-	  				<p class="item-description">Вы даже не подозреваете,  насколько вы изумительны!</p>
-	  				<p class="btn presentations"><input type="submit" value="ЗАКАЗАТЬ" ></p>
-	  			</div>
-	  			<!--<span class="line"><hr></span>-->
-	  		</div>
-			<div class="wrapper row-studio clearfix">
-			  <div class="studio-left">
-					<h3 class="studio-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h3>
-					<p class="studio-description">Исповедуем принципы минимализма и чистоты. Ставим математически</p>
-					<div class="list-work">
-						<h4>Выполняем заказы на разработку</h4>
-						<ul>
-							<li>Веб-сайтов любой сложглсти</li>
-							<li>Мобильных приложений для iOS и Android</li>
-							<li>Слайдшоу и видео для корпоративных презентаций</li>
-						</ul>
-					</div>
-			  </div>
-			  <div class="studio-right">
-				  <h3 class="studio-logo"><img src="img/logo.png" alt="Логотип" max-width="190"></h3>
-				    <div class="studio-establish">since 2004</div>
-					<div class="list-work">
-						<h4>Как мы работаем</h4>
-						<ul>
-							<li>С самоотдачей 146%</li>
-							<li>Соблюдая сроки на 100%</li>
-							<li>По предоплате 50%</li>
-						</ul>
-					</div>
-			  </div>
-			</div>  
-			
-<!-- Картинки не ссылки, пыталась в  href вставить img -->
-			<div class="wrapper row-clients clearfix">
-				<a href="#"><img src="img/glujhanko-logo.png" alt="logo-glukhanko" class="client-logo"></a>
-				<a href="#"><img src="img/HTMLacademy-logo.png" alt="logo-HTML-academy"></a>
-				<a href="#"><img src="img/borodinsky-logo.png" alt="logo-barbershop"></a>
+	  </div> <!-- END slider-->
+   </div> <!-- END wrapper-->
+ 
+  </div> <!-- END container-1200 gray-->
+
+<div class="main-content">
+	  <div class="wrapper row-item clearfix">
+		  <div class="item">
+			  <p class="item-picture">
+			  <a href="#"><img src="img/web-icon.png" alt="Веб-сайты" widht=240></a>
+			  </p>
+			  <h2 class="item-title">Веб-сайты</h2>
+			  <p class="item-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+			  <p class="btn web"><a href="#">Заказать</a></p>
+		  </div>
+		  			
+		  <div class="item">
+			    <p class="item-picture"><a href="#"><img src="img/app-icon.png" alt="Приложения" widht=240></a>
+			    </p>
+			    <h2 class="item-title">Приложения</h2>
+			    <p class="item-description">Покорите топ-10 приложений в AppStrore и Google Play</p>
+			    <p class="btn appendix"><a href="#">Заказать</a>
+		  </div>
+		
+		  <div class="item">
+			  <p class="item-picture"><a href="#"><img src="img/presentation-icon.png" alt="Презентации" widht=240></a>
+			  </p>
+			  <h2 class="item-title">Презентации</h2>
+			  <p class="item-description">Вы даже не подозреваете,  насколько вы изумительны!</p>
+			  <p class="btn presentations"><a href="#">Заказать</a></p>
+		  </div>  			  				
+		  			<!--<span class="line"><hr></span> СДЕЛАЛА ПСЕВДО_ЭЛЕМЕНТОМ-->		
+	  </div> 							<!-- END row-item-->	  			
+		  		
+	<div class="wrapper row-studio clearfix">
+		<div class="studio-left">
+			 <p class="studio-title"><b>Мы — маленькая, но гордая дизайн-							студия из Краснодара.</b></p>
+			 <p class="studio-description">Исповедуем принципы минимализма и чистоты. Ставим математически. Vинимализма и чистоты. Ставим математически</p>
+			<div class="list-work">
+			  <h4>Выполняем заказы на разработку</h4>
+				<ul>
+				  <li>Веб-сайтов любой сложности</li>
+				  <li>Мобильных приложений для iOS и Android</li>
+				  <li>Слайдшоу и видео для корпоративных презентаций</li>
+				</ul>
 			</div>
-			
+		</div>
+		
+		<div class="studio-right">
+			 <h1 class="studio-logo"><img src="img/logo.png" alt="Логотип" max-width="190"></h1>
+			 <div class="studio-establish"><h5>since 2004</h5></div>
+			 <div class="list-work">
+				 <h4>Как мы работаем</h4>
+				 <ul>
+				  <li>С самоотдачей 146%</li>
+				  <li>Соблюдая сроки на 100%</li>
+				  <li>По предоплате 50%</li>
+				 </ul>
+			 </div>
+		</div> 
+	</div>                            <!-- END row-studio --> 
+				
+	  <div class="wrapper row-clients clearfix">
+					<a href="#"><img src="img/glujhanko-logo.png" alt="лого Glujhanko" width="209"></a>
+					<a href="#"><img src="img/htmlacademy-logo.png" alt="лого htmlacademy-shop" width="209"></a>
+					<a href="#"><img src="img/borodinsky-logo.png" alt=лого Borodinsky"" width="209"></a>
+				
+	  </div>   
 
+</div>			
   	
-
-  	<div class="contacts clearfix">
-  		<div class="map ">
-	  		<img src="img/map.png" alt="Карта" width="100%" height="415" class="map">
-	  		<div class="placemark"><img src="img/placemark_map.png" alt="logo" width="50">
-	  		</div>
-	  		<div class="address">
-	  			<p class="title">NЁRDS DESIGN STUDIO<br>
-					191186, Санкт-Петербург,<br>  ул. Б. Конюшенная, д. 19/8 <br>
-					тел. +7 (812) 275-75-75
-	  			</p>
+<div class="contacts clearfix"> 
+  <div class="map ">
+	<img src="img/map.png" alt="Карта" width="1200" height="415" class="map">
+	  <div class="placemark"><img src="img/placemark_map.png" alt="logo" width="50">
+	  </div>
+	  <div class="address">
+	  	<p class="title">NЁRDS DESIGN STUDIO<br></p>
+					<p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8 </p>
+					<span>тел. +7 (812) 275-75-75</span>
+	  	
 	  			
-	  			<span><a href="">Напишите нам</a></span>
-	  		</div>
-  		</div>
-  	</div>
-  		
+	  	<p class="btn"><a href="">Напишите нам</a></p>
+	  </div>
+  </div>
+
+</div>		
  	
   		<footer class="main-footer clearfix">
   		  <div class="wrapper">
@@ -174,7 +175,10 @@
   			 	<span>Скидка 10% для друзей из социальных сетей.</span>
   			 </div>
   		  </div>	
-		<div class="form-write-us">
+		
+  		</footer>
+  		
+<div class="form-write-us">
   			
   			<form action="#" method="post" class="write-us">
   			<div class="form-write-us-close"><div class="crest"></div></div>
@@ -186,18 +190,12 @@
 	  			<p><label for="write-us-text">Текст письма:</label></p><br>
 	  			<textarea rows="10" cols="45" name="text" id="write-us-text">В свободной форме</textarea>
 
-	  			<p class="btn btn-send"><input type="submit" value="Отправить"></p>
-	  			<p class="btn btn-reset"><input type="submit" value="Отмена"></p>
+	  			<input type="submit" value="Отправить" class="btn btn-send">
+	  			<input type="submit" value="Отмена" class="btn btn-reset">
 			</form>
   		</div>
-  		</footer>
 
-
-    </div>
-
-
-  		
-  
-
-  </body>
+</div>
+		
+</body>
 </html>
