@@ -1,255 +1,344 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-  	 <meta charset="utf-8">
-	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <link href='https://fonts.googleapis.com/css?family=Roboto:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	    <title>Нёрдс - магазин</title>
-	    <meta name="keywords" content="">
-	    <meta name="description" content="">
-	    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-	    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <title>Нёрдс - магазин</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style_optimized.css">
+</head>
+
 <body>
-<div class="width1200">
+    <div class="width1200">
 
-  <div class="container-1200 gray clearfix ">
-	  <div class="wrapper clearfix">
-		  	<div class="main-header">
-		  		<div class="logo"><a href="#"><img src="img/logo.png" alt="Логотип" width="140"></a></div>
-		  			<nav class="top-menu">
-		  				<ul>
-		  				<li><a class="current">Студия</a></li>
-		  				<li><a href="#" class="active">Клиенты</a></li>
-		  				<li><a href="#">Магазин</a></li>
-		  				<li><a href="#">Контакты</a></li>
-		  				</ul>
-		  			</nav>
-		  			<div class="basket"><a href="#" class="current">Корзина</a></div>
-		  		
-		  	</div>
-														  <!-- SLIDER -->	  	
-	    <div class="slide-title">
-		  	<h1>Добро пожаловать в магазин<br>  готовых макетов</h1>
-		  	
-		</div>
-	</div>
-  </div> <!-- END container-1200 gray-->
- 
- <div class="wrapper catalog clearfix">	
-	<div class="catalog vertical-filter left">
+        <div class="container-1200 gray clearfix ">
+            <div class="wrapper clearfix">
+                <div class="main-header">
+                    <div class="logo">
+                        <a href="#"><img src="img/logo.png" alt="Логотип" width="140">
+                        </a>
+                    </div>
+                    <nav class="top-menu">
+                        <ul>
+                            <li><a href="index.html">Студия</a>
+                            </li>
+                            <li><a href="#" class="active">Клиенты</a>
+                            </li>
+                            <li><a class="current">Магазин</a>
+                            </li>
+                            <li><a href="#address">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="basket"><a href="#" class="current">Корзина</a>
+                    </div>
 
-	  <div class="price-range">
-		  <span>СТОИМОСТЬ:</span>
-		  	<div class="price-range-fon">
-				<div class="price-range-value">
-				  	<div class="price-range-line">
-				  		<div class="price-range-bar"></div>
-				  	</div>
-				  	<div class="switch min-price"></div>
-				  	<div class="switch max-price"></div>
-		
+                </div>
+                <!-- SLIDER -->
+                <div class="slide-title">
+                    <h1>Добро пожаловать в магазин<br>  готовых макетов</h1>
 
-					<!--<input type="radio" id="price-min" name="price-min" value="0">
-					<input type="radio" id="price-max" name="price-max" value="15000">   НЕ смогла стилизовать ??-->
-				
-				</div>
-		  	</div>
-		  
-		  <div class="price-range-input clearfix">
-		  			<label class="price-min">от<input type="text" name="price-min" value="0"></label>
-					<label class="price-max">до<input type="text"  name="price-max" value="15000"></label>
-		  </div>
-      </div>
+                </div>
+            </div>
+        </div>
+        <!-- END container-1200 gray-->
+
+        <div class="wrapper catalog clearfix">
+            <div class="catalog vertical-filter left">
+
+                <div class="price-range">
+                    <span>СТОИМОСТЬ:</span>
+                    <div class="price-range-fon">
+                        <div class="price-range-value">
+                            <div class="price-range-line">
+                                <div class="price-range-bar"></div>
+                            </div>
+                            <div class="switch min-price"></div>
+                            <div class="switch max-price"></div>
 
 
-	  <div class="shop-choise">
-		  <form action="https://echo.htmlacademy.ru" method="get" class="shop-left-choice">
+                            <!--<input type="radio" id="price-min" name="price-min" value="0">
+          <input type="radio" id="price-max" name="price-max" value="15000">   НЕ смогла стилизовать ??-->
 
-			  <fieldset class="grid">
-			  	<legend>Сетка:</legend>
-					<input type="radio" name="adaptive" value="Адаптивная" id="adaptive-r" class="radio checked" checked><label for="adaptive-r">Адаптивная</label><br><br>
-					    
-					<input type="radio" name="fixed" value="Фиксированная" id="fixed-r" class="radio"><label for="fixed-r">Фиксированная</label><br><br>
-					
-					<input type="radio" name="rubber" value="Резиновая" id="rubber-r" class="disabled radio" ><label for="rubber-r">Резиновая</label><br><br>
-			  </fieldset>	
+                        </div>
+                    </div>
 
-
-			<fieldset class="features">
-			  <legend>ОСОБЕННОСТИ:</legend>
-				
-					<input type="checkbox" id="slider-check" name="slider" class="checkbox checked" ><label for="slider-check">Слайдер</label><br>
-
-					  
-					<input type="checkbox" id="preference-check" name="preference" class="checkbox disabled" checked><label for="preference-check">Блок преимуществ</label><br>
-					
-					<input type="checkbox" id="news-check" name="news" class="checkbox"><label for="news-check">Новости</label><br>
-					
-					<input type="checkbox" id="galery-check" name="galery" class="checkbox"><label for="galery-check">Галерея</label><br>
-					
-					<input type="checkbox" id="basket-check" name="basket" class="checkbox"><label for="basket-check">Корзина</label><br>
-			</fieldset>
-			
-			  		
-			  <input type="submit" class="btn" value="Показать">
-		  </form>
-	  </div>
-
-  	</div> <!-- END catalog vertical-filter left-->
-  	
-  	<div class="catalog items right">
-			<div class="catalog sort">
-			  <span>СОРТИРОВАТЬ:</span>
-			  <ul>
-			  	<li><a href="#">ПО ЦЕНЕ</a></li>
-			  	<li><a href="#" class="current">ПО ТИПУ</a></li>
-			  	<li><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
-			  </ul>
-			  <div class="direction-sort">
-			  	<span class="current sort-down"></span>
-			  	<span class="sort-up"></span>
-			  </div>
-
-			</div>
-			<div class="catalog row-items">
-
-				<div class="catalog-item">
-					<div class="panel">
-						<div class="dot btn-1"></div>
-						<div class="dot btn-2"></div>
-						<div class="dot btn-3"></div>
-					</div>
-					<div class="hidden-card">
-						<h3>AVIATOR</h3>
-						<p class="description">Одностраничный макет с авторским дизайном</p>
-						<span class="btn price"><a href="#">8000 Р.</a></span>
-
-					</div>
-					<div class="figure"><img src="img/screenshot-1.jpg" alt="Фото Экрана" width="240" height="240" ></div>
-				</div>
-
-				<div class="catalog-item">
-					<div class="panel">
-						<div class="dot btn-1"></div>
-						<div class="dot btn-2"></div>
-						<div class="dot btn-3"></div>
-					</div>
-					<div class="figure"><img src="img/screenshot-2.jpg" alt="Фото Экрана" width="240" height="240" ></div>
-				</div>
-
-				<div class="catalog-item">
-					<div class="panel">
-						<div class="dot btn-1"></div>
-						<div class="dot btn-2"></div>
-						<div class="dot btn-3"></div>
-					</div>
-					<div class="figure"><img src="img/screenshot-3.jpg" alt="Фото Экрана" width="240" height="240" ></div>
-				</div>
-
-				<div class="catalog-item">
-					<div class="panel">
-						<div class="dot btn-1"></div>
-						<div class="dot btn-2"></div>
-						<div class="dot btn-3"></div>
-					</div>
-					<div class="figure"><img src="img/screenshot-4.jpg" alt="Фото Экрана" width="240" height="240" ></div>
-				</div>
-
-				<div class="catalog-item">
-					<div class="panel">
-						<div class="dot btn-1"></div>
-						<div class="dot btn-2"></div>
-						<div class="dot btn-3"></div>
-					</div>
-					<div class="figure"><img src="img/screenshot-5.jpg" alt="Фото Экрана" width="240" height="240" ></div>
-				</div>
-				<div class="catalog-item">
-					<div class="panel">
-						<div class="dot btn-1"></div>
-						<div class="dot btn-2"></div>
-						<div class="dot btn-3"></div>
-					</div>
-					<div class="figure"><img src="img/screenshot-6.jpg" alt="Фото Экрана" width="240" height="240" ></div>
-				</div>
-
-			</div>
-			<div class="paginator">
-			  <ul>
-			    <li><a href="#" class="current">1</a></li>
-			    <li><a href="#" class="active">2</a></li>
-			    <li><a href="#">3</a></li>
-			    <li><a href="#" class="next-page">СЛЕДУЮЩАЯ</a></li>
-
-			  </ul>
-			</div>
-	</div>
-
- </div>
+                    <div class="price-range-input clearfix">
+                        <label class="price-min">от
+                            <input type="text" name="price-min" value="0">
+                        </label>
+                        <label class="price-max">до
+                            <input type="text" name="price-max" value="15000">
+                        </label>
+                    </div>
+                </div>
 
 
+                <div class="shop-choise">
+                    <form action="https://echo.htmlacademy.ru" method="get" class="shop-left-choice">
 
- <!--END wrapper catalog-->
+                        <fieldset class="grid">
+                            <legend>Сетка:</legend>
+                            <input type="radio" name="adaptive" value="Адаптивная" id="adaptive-r" class="radio checked" checked>
+                            <label for="adaptive-r">Адаптивная</label>
+                            <br>
+                            <br>
 
- <div class="contacts clearfix">
-  <div class="map ">
-	<img src="img/map.png" alt="Карта" width="1200" height="415" class="map">
-	  <div class="placemark"><img src="img/placemark_map.png" alt="logo" width="50">
-	  </div>
-	  <div class="address">
-	  	<p class="title">NЁRDS DESIGN STUDIO<br></p>
-					<p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8 </p>
-					<span>тел. +7 (812) 275-75-75</span>
-	  	
-	  			
-	  	<p class="btn"><a href="">Напишите нам</a></p>
-	  </div>
-  </div>
+                            <input type="radio" name="fixed" value="Фиксированная" id="fixed-r" class="radio">
+                            <label for="fixed-r">Фиксированная</label>
+                            <br>
+                            <br>
 
-</div>
+                            <input type="radio" name="rubber" value="Резиновая" id="rubber-r" class="disabled radio">
+                            <label for="rubber-r">Резиновая</label>
+                            <br>
+                            <br>
+                        </fieldset>
 
 
-	
- 	
-  		<footer class="main-footer clearfix">
-  		  <div class="wrapper">
-  			<div class="social">   
+                        <fieldset class="features">
+                            <legend>ОСОБЕННОСТИ:</legend>
 
-				<a href="" class="social-btn social-btn-vk"><i class="icon-vkontakte"></i></a>
-				<a href="" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
-				<a href="" class="social-btn social-btn-ins"><i class="icon-linkedin-squared"></i></a>
-  			 </div>
-  			 <div class="main-footer-text">
-  			 	<p class="title">Давайте дружить, это выгодно!</p>
-  			 	<span>Скидка 10% для друзей из социальных сетей.</span>
-  			 </div>
-  		  </div>	
-		
-  		</footer>
-  		
-<div class="form-write-us">
-  			
-  			<form action="#" method="post" class="write-us">
-  			<div class="form-write-us-close"><div class="crest"></div></div>
-  			<p><label for = "write-us-name">Ваше имя:</label> <label for="write-us-email">Ваш e-mail:</label> </p>
-	  			<p><input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="write-us-name">
+                            <input type="checkbox" id="slider-check" name="slider" class="checkbox checked">
+                            <label for="slider-check">Слайдер</label>
+                            <br>
 
-	  			<input type="email" name="emeil" placeholder="Для отправки ответа" id="write-us-email"></p>
-	  			<!--Кроссбраузерность email довольно хорошая??-->
-	  			<p><label for="write-us-text">Текст письма:</label></p><br>
-	  			<textarea rows="10" cols="45" name="text" id="write-us-text">В свободной форме</textarea>
 
-	  			<input type="submit" value="Отправить" class="btn btn-send">
-	  			<input type="submit" value="Отмена" class="btn btn-reset">
-			</form>
-  		</div>
-		
-</div>	
-  </body>
+                            <input type="checkbox" id="preference-check" name="preference" class="checkbox disabled" checked>
+                            <label for="preference-check">Блок преимуществ</label>
+                            <br>
+
+                            <input type="checkbox" id="news-check" name="news" class="checkbox">
+                            <label for="news-check">Новости</label>
+                            <br>
+
+                            <input type="checkbox" id="galery-check" name="galery" class="checkbox">
+                            <label for="galery-check">Галерея</label>
+                            <br>
+
+                            <input type="checkbox" id="basket-check" name="basket" class="checkbox">
+                            <label for="basket-check">Корзина</label>
+                            <br>
+                        </fieldset>
+
+
+                        <input type="submit" class="btn" value="Показать">
+                    </form>
+                </div>
+
+            </div>
+            <!-- END catalog vertical-filter left-->
+
+            <div class="catalog items right">
+                <div class="catalog sort">
+                    <span>СОРТИРОВАТЬ:</span>
+                    <ul>
+                        <li><a href="#">ПО ЦЕНЕ</a>
+                        </li>
+                        <li><a href="#" class="current">ПО ТИПУ</a>
+                        </li>
+                        <li><a href="#">ПО ФУНКЦИОНАЛУ</a>
+                        </li>
+                    </ul>
+                    <div class="direction-sort">
+                        <span class="current sort-down"></span>
+                        <span class="sort-up"></span>
+                    </div>
+
+                </div>
+                <div class="catalog row-items clearfix">
+
+                    <div class="catalog-item">
+                        <div class="panel">
+                            <div class="dot btn-1"></div>
+                            <div class="dot btn-2"></div>
+                            <div class="dot btn-3"></div>
+                        </div>
+                        <div class="hidden-card">
+                            <h3>AVIATOR</h3>
+                            <p class="description">Одностраничный макет с авторским дизайном</p>
+                            <span class="btn price"><a href="#">8000 Р.</a></span>
+
+                        </div>
+                        <div class="figure"><img src="img/screenshot-1.jpg" alt="Фото Экрана" width="240" height="242">
+                        </div>
+                    </div>
+
+                    <div class="catalog-item">
+                        <div class="panel">
+                            <div class="dot btn-1"></div>
+                            <div class="dot btn-2"></div>
+                            <div class="dot btn-3"></div>
+                        </div>
+                        <div class="figure"><img src="img/screenshot-2.jpg" alt="Фото Экрана" width="240" height="242">
+                        </div>
+                    </div>
+
+                    <div class="catalog-item">
+                        <div class="panel">
+                            <div class="dot btn-1"></div>
+                            <div class="dot btn-2"></div>
+                            <div class="dot btn-3"></div>
+                        </div>
+                        <div class="figure"><img src="img/screenshot-3.jpg" alt="Фото Экрана" width="240" height="242">
+                        </div>
+                    </div>
+
+                    <div class="catalog-item">
+                        <div class="panel">
+                            <div class="dot btn-1"></div>
+                            <div class="dot btn-2"></div>
+                            <div class="dot btn-3"></div>
+                        </div>
+                        <div class="figure"><img src="img/screenshot-4.jpg" alt="Фото Экрана" width="240" height="242">
+                        </div>
+                    </div>
+
+                    <div class="catalog-item">
+                        <div class="panel">
+                            <div class="dot btn-1"></div>
+                            <div class="dot btn-2"></div>
+                            <div class="dot btn-3"></div>
+                        </div>
+                        <div class="figure"><img src="img/screenshot-5.jpg" alt="Фото Экрана" width="240" height="242">
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="panel">
+                            <div class="dot btn-1"></div>
+                            <div class="dot btn-2"></div>
+                            <div class="dot btn-3"></div>
+                        </div>
+                        <div class="figure"><img src="img/screenshot-6.jpg" alt="Фото Экрана" width="240" height="242">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="paginator">
+                    <ul>
+                        <li><a href="#" class="current">1</a>
+                        </li>
+                        <li><a href="#" class="active">2</a>
+                        </li>
+                        <li><a href="#">3</a>
+                        </li>
+                        <li><a href="#" class="next-page">СЛЕДУЮЩАЯ</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--END wrapper catalog-->
+
+        <div class="contacts clearfix">
+            <div class="map ">
+                <img src="img/map.png" width="1200" height="412" alt="Карта" class="img-map">
+                <div class="placemark"><img src="img/placemark_map.png" width="50" alt="logo">
+                </div>
+                <div class="address" id="address">
+                    <p class="title">NЁRDS DESIGN STUDIO
+                        <br>
+                    </p>
+                    <p>191186, Санкт-Петербург,
+                        <br>ул. Б. Конюшенная, д. 19/8 </p>
+                    <span>тел. +7 (812) 275-75-75</span>
+
+
+                    <a href="write-us.html" class="login">Напишите нам</a>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="main-footer clearfix">
+            <div class="wrapper">
+                <div class="social">
+
+                    <a href="" class="social-btn social-btn-vk"><i class="icon-vkontakte"></i></a>
+                    <a href="" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
+                    <a href="" class="social-btn social-btn-ins"><i class="icon-linkedin-squared"></i></a>
+                </div>
+                <div class="main-footer-text">
+                    <p class="title">Давайте дружить, это выгодно!</p>
+                    <span>Скидка 10% для друзей из социальных сетей.</span>
+                </div>
+            </div>
+
+        </footer>
+
+        <div class="form-write-us">
+
+            <form action="#" method="post" class="write-us">
+                <div class="form-write-us-close">
+                    <div class="crest"></div>
+                </div>
+                <p>
+                    <label for="write-us-name">Ваше имя:</label>
+                    <label for="write-us-email">Ваш e-mail:</label>
+                </p>
+                <p>
+                    <input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="write-us-name">
+
+                    <input type="email" name="emeil" placeholder="Для отправки ответа" id="write-us-email">
+                </p>
+                <!--Кроссбраузерность email довольно хорошая??-->
+                <p>
+                    <label for="write-us-text">Текст письма:</label>
+                </p>
+                <br>
+                <textarea rows="10" cols="45" name="text" id="write-us-text">В свободной форме</textarea>
+
+                <input type="submit" value="Отправить" class="btn btn-send">
+                <input type="submit" value="Отмена" class="btn btn-reset">
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+        var link = document.querySelector(".login");
+        var popup = document.querySelector(".form-write-us");
+        var login = popup.querySelector("[name=name]");
+        var close = popup.querySelector(".form-write-us-close");
+        var form = popup.querySelector("form");
+        var password = popup.querySelector("[name=emeil]")
+
+
+        link.addEventListener("click", function(event) {event.prventDefault(); popup.classList.add("form-registration-show"); login.focus()} );
+
+        close.addEventListener(
+            "click", function(event) {
+            event.prventDefault(); 
+            popup.classList.remove("form-registration-show");
+            } );
+
+        form.addEventListener(
+            "submit", function(event) 
+            {
+            if (!login.value || !password.value) 
+            {
+                event.prventDefault();
+                console.log ("Пожалуйста, заполните обязательные поля");
+            }
+            } );
+        window.addEventListener("keydown", function(event) {
+            if (event.keyCode === 27) {
+                if (popup.classList.certains("form-registration-show"))
+                 {popup.classList.remove("form-registration-show");}
+            }
+
+            });
+
+
+    </script>
+</body>
+
 </html>
-
-
-
-
-
